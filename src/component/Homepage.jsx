@@ -9,7 +9,7 @@ const Homepage = () => {
      
         <img src={logo} alt="logo" className="homelogo" />
         <button className="homebutton">REGISTER NOW</button>
-      
+        {/* background-image: url("../assets/bg5.png"); */}
       <Navbar />
     </div>
   );
