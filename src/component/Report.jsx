@@ -35,6 +35,7 @@ const Report = () => {
     ]
 
   return (
+    <>
     <div className='Report'>
 
         <div className='Report__title'>
@@ -49,7 +50,19 @@ const Report = () => {
                 </div>
             ))}
                 </div>
+
+            
     </div>
+
+    <div className='score'>
+
+    <span className='para'>
+    Take our 10-minute questionnaire to get a detailed analysis of your mind, body and soulconstitution including your Ayurvedic Profile and Ayuvi Score
+    </span>
+    <button className='Report__button'> <span>Get Your Report </span></button>
+</div>
+</>
+
   )
 }
 
