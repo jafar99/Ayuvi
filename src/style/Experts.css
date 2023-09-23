@@ -96,6 +96,7 @@
   .Expert-content {
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;
   }
 
   .content-left-top {
@@ -122,5 +123,9 @@
   .content-left-top-text {
     flex-direction: column;
     margin-bottom: 1rem;
+  }
+
+  .content-left {
+    padding: 1rem;
   }
 }
