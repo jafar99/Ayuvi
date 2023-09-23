@@ -90,7 +90,7 @@
 }
 
 /* Media query for screens with a maximum width of 768px (mobile) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1035px) {
   .nav-menu {
     display: none; /* Hide the desktop menu items */
   }
