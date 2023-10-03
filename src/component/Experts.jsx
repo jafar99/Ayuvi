@@ -19,10 +19,10 @@ const Experts = () => {
                 Dr. Jyoti A. Shirodkar
               </span>
               <span className="content-left-top-text-designation">
-                Chairman, NABARD
+              Chairman, NABARD BAMS, MD, Ph.D25 Years of Experience
               </span>
               <span className="content-left-top-text-content">
-                BAMS, MD, Ph.D25 Years of Experience Pune
+                 Pune
               </span>
             </div>
           </div>
@@ -48,13 +48,13 @@ const Experts = () => {
 
             <div className="content-center-top-text">
               <span className="content-center-top-text-name">
-                Dr. Jyoti A. Shirodkar
+                Dr. Jyoti A. Shirodkar 
               </span>
               <span className="content-center-top-text-designation">
-                Chairman, NABARD
+                Chairman, NABARD BAMS, MD, Ph.D25 Years of Experience
               </span>
               <span className="content-center-top-text-content">
-                BAMS, MD, Ph.D25 Years of Experience Pune
+                Pune
               </span>
             </div>
           </div>

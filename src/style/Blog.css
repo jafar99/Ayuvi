@@ -15,6 +15,7 @@
   width: 100%;
   gap: 2rem;
   padding: 2rem;
+  gap: 2rem;
 }
 
 .container1 {
@@ -108,27 +109,24 @@
 @media (max-width: 768px) {
   .Blogs-1 {
     gap: 1rem;
-  padding: 0.5rem 1rem;
-  
-  
-
+    padding: 0.5rem 1rem;
   }
 
   .blogss {
     flex-direction: column;
   }
 
-    .container1 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
+  .container1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 
-    .container2 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-    }
+  .container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 }

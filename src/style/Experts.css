@@ -94,11 +94,40 @@
   font-style: normal;
 }
 
+@media (max-width: 768px) {
+  .Expert-content {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
 
-@media (max-width: 768px){
+  .content-left-top {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+  }
 
-       .Expert-content{
-              flex-direction: column;
-              gap: 1rem;
-       } 
+  .content-center-top {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-item: center;
+    text-align: center;
+  }
+
+  .content-center-top-text {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .content-left-top-text {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .content-left {
+    padding: 1rem;
+  }
 }
