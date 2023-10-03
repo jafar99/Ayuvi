@@ -4,6 +4,7 @@ import Benefit from './component/Benefit'
 import Blog from './component/Blog'
 import Content from './component/Content'
 import Experts from './component/Experts'
+import Footer from './component/Footer'
 import Homepage from './component/Homepage'
 import Report from './component/Report'
 
@@ -18,6 +19,7 @@ function App() {
       <Report/>
       <Blog/>
       <Experts/>
+      <Footer/> 
     </>
   )
 }
