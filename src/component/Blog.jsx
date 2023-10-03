@@ -5,7 +5,7 @@ import img from "../assets/12.png";
 const Blog = () => {
   return (
     <>
-      <div className="Blogs">
+      <div className="Blogs" id="blog">
         <div className="blog-heading">Blogs</div>
         <div className="Blogs-1">
           <div className="blogss">

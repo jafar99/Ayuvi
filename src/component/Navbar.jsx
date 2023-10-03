@@ -11,6 +11,46 @@ const Navbar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+
+  const scrollToBlogSection = () => {
+    const targetSection = document.getElementById('blog'); // ID of the "Blogs" section
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToHomeSection = () => {
+    const targetSection = document.getElementById('home'); // ID of the "Blogs" section
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
+  const scrollToAboutUseSection = () => {
+    const targetSection = document.getElementById('about'); // ID of the "Blogs" section
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
+  const scrollToBenifitUseSection = () => {
+    const targetSection = document.getElementById('benefit'); // ID of the "Blogs" section
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToExpertUseSection = () => {
+    const targetSection = document.getElementById('expert'); // ID of the "Blogs" section
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
+
   return (
     <>
       <nav className={`navbar ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
@@ -27,22 +67,20 @@ const Navbar = () => {
           </button>
           <ul className={`nav-menu ${isMobileMenuOpen ? 'nav-menu-mobile' : ''}`}>
             <li className="nav-item">
-              <a href="/" className="nav-links">Home</a>
+              <a href="#" onClick={scrollToHomeSection} className="nav-links">Home</a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-links">About Us</a>
+              <a href="#" onClick={scrollToAboutUseSection} className="nav-links">About Us</a>
+            </li>
+          
+            <li className="nav-item">
+              <a href="#" onClick={scrollToBenifitUseSection} className="nav-links">Key Benefits</a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-links">How It Works</a>
+              <a href="#" onClick={scrollToExpertUseSection} className="nav-links">Experts</a>
             </li>
             <li className="nav-item">
-              <a href="/" className="nav-links">Key Benefitss</a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-links">Diabetes Care</a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-links">Blogs</a>
+              <a href="#" onClick={scrollToBlogSection} className="nav-links">Blogs</a>
             </li>
             
           </ul>

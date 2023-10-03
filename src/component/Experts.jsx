@@ -4,7 +4,7 @@ import profile from "../assets/profile.png";
 
 const Experts = () => {
   return (
-    <div className="Expert">
+    <div className="Expert" id="expert">
       <div className="Expert-heading">Our Experts</div>
 
       <div className="Expert-content">

@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
     <div className='home'>
      
-        <img src={logo} alt="logo" className="homelogo" />
+        <img src={logo} alt="logo" className="homelogo" id='home' />
         <button className="homebutton">REGISTER NOW</button>
         {/* background-image: url("../assets/bg5.png"); */}
       <Navbar />

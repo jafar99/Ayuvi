@@ -5,7 +5,7 @@ import img from '../assets/7.png';
 
 const Content = () => {
   return (
-    <div className='contenthead'>
+    <div className='contenthead' id='about'>
 
         <div className='content1'>
         <span className='text1'>Ayurveda for the mind, body & soul</span>

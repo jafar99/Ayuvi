@@ -43,7 +43,7 @@ const Benefit = () => {
   ];
 
   return (
-    <div className="benefit"> {/* Correct the class name */}
+    <div className="benefit" id='benefitt'> {/* Correct the class name */}
       <div className="circle-container">
         <div className="circle-image">
           <img src={bgbenfit} alt="Center Image" />

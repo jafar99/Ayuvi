@@ -39,7 +39,7 @@ const Report = () => {
 
   return (
     <>
-      <div className="Report">
+      <div className="Report" id="benefit">
         <div className="Report__title">
           <span className="headingreport">
             Get A Personalized Wellness Report
