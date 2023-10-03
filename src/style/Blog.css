@@ -13,6 +13,7 @@
   flex-wrap: wrap;
   background-color: #f8f8f8;
   width: 100%;
+  gap: 2rem;
   padding: 2rem;
 }
 
