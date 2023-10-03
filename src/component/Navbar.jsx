@@ -67,20 +67,20 @@ const Navbar = () => {
           </button>
           <ul className={`nav-menu ${isMobileMenuOpen ? 'nav-menu-mobile' : ''}`}>
             <li className="nav-item">
-              <a href="#" onClick={scrollToHomeSection} className="nav-links">Home</a>
+              <a onClick={scrollToHomeSection} className="nav-links">Home</a>
             </li>
             <li className="nav-item">
-              <a href="#" onClick={scrollToAboutUseSection} className="nav-links">About Us</a>
+              <a  onClick={scrollToAboutUseSection} className="nav-links">About Us</a>
             </li>
           
             <li className="nav-item">
-              <a href="#" onClick={scrollToBenifitUseSection} className="nav-links">Key Benefits</a>
+              <a  onClick={scrollToBenifitUseSection} className="nav-links">Key Benefits</a>
             </li>
             <li className="nav-item">
-              <a href="#" onClick={scrollToExpertUseSection} className="nav-links">Experts</a>
+              <a  onClick={scrollToExpertUseSection} className="nav-links">Experts</a>
             </li>
             <li className="nav-item">
-              <a href="#" onClick={scrollToBlogSection} className="nav-links">Blogs</a>
+              <a  onClick={scrollToBlogSection} className="nav-links">Blogs</a>
             </li>
             
           </ul>
